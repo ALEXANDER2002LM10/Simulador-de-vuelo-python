@@ -35,3 +35,14 @@ Para el correcto funcionamiento del simulador, los archivos deben coexistir en e
 ```text
 ├── simulador_de_posicionamiento_aereo.py   # Código fuente principal
 └── edited-image.png.png                    # Imagen de fondo (Mapa base mundial)
+## 🚀 Instrucciones de Ejecución
+
+1. Clona este repositorio o descarga los archivos en una carpeta local:
+   ```bash
+   git clone [https://github.com/ALEXANDER2002LM10/Simulador-de-vuelo-python.git](https://github.com/ALEXANDER2002LM10/Simulador-de-vuelo-python.git)
+Abre una terminal dentro del directorio del proyecto.
+
+Ejecuta el script principal de Python:
+
+Bash
+python simulador_de_posicionamiento_aereo.py
