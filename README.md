@@ -28,15 +28,18 @@ Para ejecutar el simulador en tu entorno local, asegúrate de contar con los sig
 2. **Librería Pillow:** Necesaria para el procesamiento y escalado dinámico del mapa base. Instalable desde la terminal con el comando:
    ```bash
    pip install Pillow
+   
 ### Estructura de Archivos Obligatoria
 
 Para el correcto funcionamiento del simulador, los archivos deben coexistir en el mismo directorio con la siguiente estructura (empleando rutas relativas dinámicas gestionadas por el módulo `os`):
 
+   ``text
 ├── simulador_de_posicionamiento_aereo.py   # Código fuente principal
 └── edited-image.png.png                    # Imagen de fondo (Mapa base mundial)
 
 ---
-## Instrucciones de Ejecución
+
+### Instrucciones de Ejecución
 
 1. Clona este repositorio o descarga los archivos en una carpeta local:
    ```bash
@@ -45,4 +48,4 @@ Abre una terminal dentro del directorio del proyecto.
 
 Ejecuta el script principal de Python:
    ```bash
-python simulador_de_posicionamiento_aereo.py
+   python simulador_de_posicionamiento_aereo.py
