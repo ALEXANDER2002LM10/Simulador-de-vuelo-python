@@ -34,6 +34,7 @@ Para ejecutar el simulador en tu entorno local, asegúrate de contar con los sig
 Para el correcto funcionamiento del simulador, los archivos deben coexistir en el mismo directorio con la siguiente estructura (empleando rutas relativas dinámicas gestionadas por el módulo `os`):
 
 ├── simulador_de_posicionamiento_aereo.py   # Código fuente principal
+
 └── edited-image.png.png                    # Imagen de fondo (Mapa base mundial)
 
 ---
