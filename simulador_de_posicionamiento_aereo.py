@@ -5,7 +5,7 @@ import os
 import PIL.Image # type: ignore
 import PIL.ImageTk # type: ignore
 
-# 🎨 COLORES
+# PANEL DE COLORES
 COLOR_FONDO = "#020617"
 COLOR_PANEL = "#020203"
 COLOR_GRID = "#1e293b"
@@ -104,7 +104,7 @@ class SimuladorMapa:
         # Cargar elementos del panel
         self.crear_elementos_panel()
 
-        # 🎮 Controles Manuales
+        #  Controles Manuales
         root.bind("<w>", self.mover_manual)
         root.bind("<s>", self.mover_manual)
         root.bind("<a>", self.mover_manual)
